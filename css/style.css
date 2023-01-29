@@ -1,0 +1,203 @@
+*{
+   list-style: none ;
+  margin: 0;
+  padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+
+
+           /* header start  */
+
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: calc(100%-32px);
+    padding: 18px;
+}
+
+.header{
+    width: 60%;
+    margin: auto;
+    height: 100%
+}
+.icon{
+    height: calc(15px + 1vw); 
+
+}
+.tittle{
+    font-size: calc(15px + 1vw);
+
+}
+.nav-bar{
+    float: right;
+    margin: 2px;
+
+}
+.nav-bar li{
+    font-size: calc(15px + .5vw);
+    text-transform: capitalize;
+    float: left;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.nav-bar li:hover{
+    color: orange;
+}
+
+.header-content{
+    text-align: justify;
+    margin-top: 15%;
+    width: 70%;
+    height: 400px;
+}
+.stroke{
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text ;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: calc(50px + 2vw);
+    margin-block: 10px;
+
+}
+
+.btn{
+    width: 100px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    height: 14px;
+    padding: 15px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    
+}
+.first-btn{
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+    background-color: orange;
+}
+.second-btn{
+    color: orange !important;
+}
+
+            /* header ends  */
+.first-section{
+    background-color: rgb(255, 242, 226);
+    height: 350px;
+    
+}
+
+.first-container{
+    margin-left: 20vw;
+    width: 77%;
+    vertical-align: baseline;
+}
+.card{
+    color: #000;
+    background-color: azure;
+    height: 240px;
+    width: 15vw;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: calc(110px/3);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-right: 20px;
+    
+   
+}
+.card-paragraph{
+ margin-block: 20px;
+}
+
+.second-section{
+    margin-inline: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
+    height: 350px;
+   
+}
+.burger-img{
+   float: right;
+   height: 300px;
+   display: inline;
+   
+}
+.description{
+    padding: 20px;
+    color: #000;
+    width: 40%;
+    float: left;
+    clear: none;
+}
+.description li {
+    margin-top: 25px;
+}
+.description li:before {
+    content: "\2665 ";
+    color: orange;
+    margin-right: 6px;
+}
+
+.contact-us{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/banner.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: calc(100%-32px);
+    padding: 18px;
+}
+.contact-section{
+    margin-inline: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
+    text-align: center;
+}
+.contact{
+    display: inline;
+}
+.contact-num{
+    color: orange;
+}
+.contact-container{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: block;
+}
+footer{
+    color: rgba(240, 255, 255, 0.814);
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    font-weight: 100 !important;
+    padding: 15px;
+    
+}
